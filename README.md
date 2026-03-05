@@ -1,10 +1,12 @@
-## ESTIAM AWS Labs – Site statique S3
+# Site statique -  S3
 
 Plateforme web statique destinée aux étudiants de l’ESTIAM pour pratiquer les principaux services AWS (EC2, S3, RDS, CloudFront, IAM, etc.).  
 Le site est conçu pour être **hébergé sur Amazon S3 en mode “static website hosting”**.
 
 ---
 
+## Objectif 
+comment héberger un site web statique dans Amazon S3
 ### Informations auteur
 
 - **Nom**: LO  
