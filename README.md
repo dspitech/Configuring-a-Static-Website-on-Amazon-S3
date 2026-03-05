@@ -1,7 +1,11 @@
 # Site statique -  S3
 
+<span style="background-color:#FF9900; color:white; padding:4px 8px; border-radius:4px; font-size:0.9em; margin-right:6px;">AWS S3</span>
+<span style="background-color:#FF9900; color:white; padding:4px 8px; border-radius:4px; font-size:0.9em; margin-right:6px;">EC2</span>
+
 Plateforme web statique destinée aux étudiants de l’ESTIAM pour pratiquer les principaux services AWS (EC2, S3, RDS, CloudFront, IAM, etc.).  
 Le site est conçu pour être **hébergé sur Amazon S3 en mode “static website hosting”**.
+
 
 ---
 
