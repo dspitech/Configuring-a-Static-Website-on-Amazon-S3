@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratoires | ESTIAM AWS Labs</title>
+    <meta name="description" content="Catalogue complet des travaux pratiques ESTIAM AWS Labs pour apprendre les principaux services AWS.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ESTIAM <span>AWS LABS</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="labs.html" class="active">Laboratoires</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-hero">
+        <div class="hero-content">
+            <h1>Catalogue des laboratoires</h1>
+            <p>Explorez l’ensemble des labs proposés dans le cadre du cursus Cloud Computing à l’ESTIAM.</p>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Labs fondamentaux</h2>
+                <p class="section-subtitle">Les briques de base pour découvrir AWS et se familiariser avec la console.</p>
+            </div>
+            <div class="labs-grid">
+                <a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html" class="lab-card-link" target="_blank" rel="noopener noreferrer">
+                    <article class="lab-card">
+                        <i class="fas fa-user-shield"></i>
+                        <h3>Prise en main d’IAM</h3>
+                        <p>Création d’utilisateurs, de groupes et de rôles IAM pour gérer les droits d’accès de manière sécurisée.</p>
+                        <ul class="lab-meta">
+                            <li><strong>Niveau :</strong> Débutant</li>
+                            <li><strong>Durée estimée :</strong> 45 min</li>
+                        </ul>
+                    </article>
+                </a>
+                <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html" class="lab-card-link" target="_blank" rel="noopener noreferrer">
+                    <article class="lab-card">
+                        <i class="fas fa-server"></i>
+                        <h3>EC2 &amp; Sécurité</h3>
+                        <p>Lancer une instance Linux, configurer les Security Groups et se connecter en SSH.</p>
+                        <ul class="lab-meta">
+                            <li><strong>Niveau :</strong> Débutant</li>
+                            <li><strong>Durée estimée :</strong> 1 h</li>
+                        </ul>
+                    </article>
+                </a>
+                <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html" class="lab-card-link" target="_blank" rel="noopener noreferrer">
+                    <article class="lab-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Introduction à S3</h3>
+                        <p>Créer un bucket, gérer les objets, les politiques d’accès et comprendre les classes de stockage.</p>
+                        <ul class="lab-meta">
+                            <li><strong>Niveau :</strong> Débutant</li>
+                            <li><strong>Durée estimée :</strong> 45 min</li>
+                        </ul>
+                    </article>
+                </a>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="section-header">
+                <h2 class="section-title">Labs orientés projets</h2>
+                <p class="section-subtitle">Construisez des architectures complètes en combinant plusieurs services AWS.</p>
+            </div>
+            <div class="labs-grid">
+                <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html" class="lab-card-link" target="_blank" rel="noopener noreferrer">
+                    <article class="lab-card">
+                        <i class="fas fa-globe"></i>
+                        <h3>Hébergement d’un site statique avec S3 &amp; CloudFront</h3>
+                        <p>Mettre en ligne un site web statique sur S3, le distribuer via CloudFront et ajouter un domaine personnalisé.</p>
+                        <ul class="lab-meta">
+                            <li><strong>Niveau :</strong> Intermédiaire</li>
+                            <li><strong>Durée estimée :</strong> 1 h 30</li>
+                        </ul>
+                    </article>
+                </a>
+                <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.html" class="lab-card-link" target="_blank" rel="noopener noreferrer">
+                    <article class="lab-card">
+                        <i class="fas fa-table"></i>
+                        <h3>Application avec RDS</h3>
+                        <p>Déployer une base de données MySQL managée et y connecter une application web simple.</p>
+                        <ul class="lab-meta">
+                            <li><strong>Niveau :</strong> Intermédiaire</li>
+                            <li><strong>Durée estimée :</strong> 2 h</li>
+                        </ul>
+                    </article>
+                </a>
+                <a href="https://docs.aws.amazon.com/whitepapers/latest/aws-well-architected-framework/introduction.html" class="lab-card-link" target="_blank" rel="noopener noreferrer">
+                    <article class="lab-card">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Architecture haute disponibilité</h3>
+                        <p>Mettre en place une architecture multi-AZ avec Auto Scaling et Load Balancing.</p>
+                        <ul class="lab-meta">
+                            <li><strong>Niveau :</strong> Avancé</li>
+                            <li><strong>Durée estimée :</strong> 2 h 30</li>
+                        </ul>
+                    </article>
+                </a>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="two-columns">
+                <div>
+                    <h2 class="section-title">Organisation des labs</h2>
+                    <p>Les laboratoires sont conçus pour suivre la progression du module de cours. Chaque lab indique clairement ses prérequis, les services AWS mobilisés et les risques éventuels liés à la facturation.</p>
+                </div>
+                <div class="highlight-box">
+                    <h3>Bonnes pratiques</h3>
+                    <ul class="list-bullets">
+                        <li>Relire les prérequis avant de démarrer.</li>
+                        <li>Supprimer les ressources à la fin du lab pour éviter les coûts inutiles.</li>
+                        <li>Travailler avec un compte dédié aux labs lorsque c’est possible.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p>&copy; 2026 ESTIAM AWS Labs &mdash; Tous droits réservés.</p>
+            <p class="footer-links">
+                <a href="index.html">Accueil</a>
+                <span>·</span>
+                <a href="apropos.html">À propos</a>
+                <span>·</span>
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

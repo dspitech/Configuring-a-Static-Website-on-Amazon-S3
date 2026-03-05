@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTIAM AWS Labs | Plateforme Cloud Étudiante</title>
+    <meta name="description" content="Plateforme ESTIAM AWS Labs : travaux pratiques, ressources et supports pour apprendre le cloud AWS de manière professionnelle.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ESTIAM <span>AWS LABS</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="labs.html">Laboratoires</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Maîtrisez le Cloud AWS avec des labs guidés</h1>
+            <p>Une plateforme dédiée aux étudiants de l’ESTIAM pour pratiquer les services AWS dans un cadre structuré et sécurisé.</p>
+            <div class="hero-actions">
+                <a href="labs.html" class="btn-primary">Accéder aux laboratoires</a>
+                <a href="apropos.html" class="btn-secondary">Découvrir la plateforme</a>
+            </div>
+            <div class="hero-meta">
+                <span><i class="fa-solid fa-users"></i> Étudiants ESTIAM</span>
+                <span><i class="fa-solid fa-graduation-cap"></i> Cours Cloud Computing</span>
+                <span><i class="fa-solid fa-shield-halved"></i> Bonnes pratiques & sécurité</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="container section">
+            <div class="section-header">
+                <h2 class="section-title">Pourquoi ESTIAM AWS Labs ?</h2>
+                <p class="section-subtitle">Une approche progressive et orientée projet pour comprendre les briques essentielles du cloud AWS.</p>
+            </div>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h3>Parcours structuré</h3>
+                    <p>Les labs sont organisés par niveau de difficulté, de l’initiation aux architectures distribuées, pour accompagner votre progression.</p>
+                </article>
+                <article class="feature-card">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <h3>100% orienté pratique</h3>
+                    <p>Chaque activité vous fait manipuler directement la console AWS et les services clés : EC2, S3, RDS, IAM, CloudFront, et plus encore.</p>
+                </article>
+                <article class="feature-card">
+                    <i class="fa-solid fa-file-shield"></i>
+                    <h3>Aligné sur les bonnes pratiques</h3>
+                    <p>Les labs intègrent les notions de sécurité, de coûts et de haute disponibilité, pour vous rapprocher de la réalité des entreprises.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container section section-alt" id="labs">
+            <div class="section-header">
+                <h2 class="section-title">Aperçu des laboratoires</h2>
+                <p class="section-subtitle">Un catalogue de labs guidés pour explorer les principaux services AWS.</p>
+            </div>
+            <div class="labs-grid" id="labs-container"></div>
+            <div class="section-cta-center">
+                <a href="labs.html" class="btn-primary">Voir tous les labs</a>
+            </div>
+        </section>
+
+        <section class="container section">
+            <div class="two-columns">
+                <div>
+                    <h2 class="section-title">Une pédagogie pensée pour les étudiants</h2>
+                    <p>Chaque laboratoire est accompagné d’objectifs clairs, de prérequis, d’un déroulé détaillé et d’une section “Pour aller plus loin”. Vous pouvez ainsi consolider vos acquis et revenir facilement sur un sujet.</p>
+                    <ul class="list-check">
+                        <li>Guides pas-à-pas avec captures et explications.</li>
+                        <li>Rappels théoriques essentiels directement intégrés.</li>
+                        <li>Mises en garde sur les erreurs fréquentes et les coûts.</li>
+                    </ul>
+                </div>
+                <div class="highlight-box">
+                    <h3>Objectifs pédagogiques</h3>
+                    <ul class="list-bullets">
+                        <li>Comprendre les concepts fondamentaux du cloud computing.</li>
+                        <li>Savoir déployer une architecture simple sur AWS.</li>
+                        <li>Adopter les bonnes pratiques de sécurité et de supervision.</li>
+                        <li>Préparer les certifications d’entrée de gamme (AWS Cloud Practitioner, par exemple).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Comment utiliser la plateforme ?</h2>
+                </div>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <span class="step-number">1</span>
+                        <h3>Choisissez un lab</h3>
+                        <p>Sélectionnez un laboratoire adapté à votre niveau ou au chapitre du cours en cours.</p>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-number">2</span>
+                        <h3>Suivez le guide</h3>
+                        <p>Réalisez les étapes indiquées sur votre compte AWS (ou celui fourni par l’école) en respectant les prérequis.</p>
+                    </div>
+                    <div class="step-card">
+                        <span class="step-number">3</span>
+                        <h3>Validez vos acquis</h3>
+                        <p>Répondez aux questions de fin de lab ou présentez votre environnement au formateur pour obtenir un feedback.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section" id="contact">
+            <div class="two-columns">
+                <div>
+                    <h2 class="section-title">Besoin d’aide ?</h2>
+                    <p>Si vous rencontrez un problème sur un lab ou si vous avez identifié une amélioration possible, vous pouvez contacter l’équipe pédagogique.</p>
+                    <p>Utilisez la page <a href="contact.html">Contact</a> pour envoyer un message ou consultez la FAQ pour les questions récurrentes.</p>
+                </div>
+                <div class="contact-mini">
+                    <h3>Support pédagogique</h3>
+                    <p><i class="fa-solid fa-envelope"></i> support-cloud@estiam.education</p>
+                    <p><i class="fa-solid fa-clock"></i> Temps de réponse indicatif : 48h (hors week-end et jours fériés).</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p>&copy; 2026 ESTIAM AWS Labs &mdash; Plateforme réalisée dans le cadre du cours Cloud Computing.</p>
+            <p class="footer-links">
+                <a href="labs.html">Laboratoires</a>
+                <span>·</span>
+                <a href="apropos.html">À propos</a>
+                <span>·</span>
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

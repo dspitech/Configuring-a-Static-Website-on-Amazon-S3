@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Introuvable</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            text-align: center; 
+            padding: 20px;
+        }
+        .error-container h1 { 
+            font-size: clamp(4rem, 15vw, 8rem); /* Taille fluide selon l'écran */
+            color: var(--aws-orange); 
+            margin-bottom: 0.5rem;
+        }
+        .error-container h2 {
+            margin-bottom: 1rem;
+        }
+        .error-container p {
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>404</h1>
+        <h2>Oops! Ce lab n'existe pas encore.</h2>
+        <p>Retournez à la page d'accueil pour continuer votre apprentissage.</p>
+        <a href="index.html" class="btn-primary">Retour à l'accueil</a>
+    </div>
+</body>
+</html>

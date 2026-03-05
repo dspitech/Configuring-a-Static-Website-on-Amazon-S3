@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos | ESTIAM AWS Labs</title>
+    <meta name="description" content="En savoir plus sur la plateforme ESTIAM AWS Labs, ses objectifs pédagogiques et son public cible.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ESTIAM <span>AWS LABS</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="labs.html">Laboratoires</a></li>
+            <li><a href="apropos.html" class="active">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-hero">
+        <div class="hero-content">
+            <h1>À propos de la plateforme ESTIAM AWS Labs</h1>
+            <p>Une plateforme pédagogique structurée pour faire passer les étudiants d’un premier contact avec le cloud à la mise en œuvre d’architectures AWS réalistes.</p>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <section class="section">
+            <div class="two-columns">
+                <div>
+                    <h2 class="section-title">Contexte pédagogique</h2>
+                    <p>ESTIAM AWS Labs est une plateforme de support pour les cours de Cloud Computing dispensés à l’ESTIAM. Elle centralise l’ensemble des travaux pratiques, des supports associés et des liens vers la documentation officielle AWS.</p>
+                    <p>Les labs sont conçus pour être réalisés en autonomie ou en séance encadrée, avec un accent particulier mis sur la compréhension des concepts, la sécurité, l’optimisation des coûts et la préparation aux certifications.</p>
+                </div>
+                <div class="highlight-box">
+                    <h3>Public visé</h3>
+                    <ul class="list-bullets">
+                        <li>Étudiants en informatique ou en ingénierie logicielle.</li>
+                        <li>Profils en reconversion souhaitant découvrir le cloud.</li>
+                        <li>Apprenants qui préparent une certification AWS d’entrée de gamme.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="section-header">
+                <h2 class="section-title">Quelques repères chiffrés</h2>
+                <p class="section-subtitle">La plateforme vise à accompagner progressivement les promotions ESTIAM dans la maîtrise d’AWS.</p>
+            </div>
+            <div class="stats-grid">
+                <article class="stat-card">
+                    <h3>4+</h3>
+                    <p>familles de services AWS abordées (compute, stockage, base de données, réseau).</p>
+                </article>
+                <article class="stat-card">
+                    <h3>3</h3>
+                    <p>niveaux de difficulté : découverte, intermédiaire, mise en pratique avancée.</p>
+                </article>
+                <article class="stat-card">
+                    <h3>100%</h3>
+                    <p>des labs orientés vers des cas d’usage concrets utilisables en projet.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="section-header">
+                <h2 class="section-title">Principes de conception des labs</h2>
+            </div>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h3>Progressivité</h3>
+                    <p>Les exercices montent en complexité de manière graduelle, depuis les premiers pas jusqu’aux architectures distribuées.</p>
+                </article>
+                <article class="feature-card">
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    <h3>Orienté résultats</h3>
+                    <p>Chaque lab débouche sur un livrable concret : infrastructure déployée, capture d’écran, mini-rapport ou restitution orale, afin de valoriser le travail réalisé.</p>
+                </article>
+                <article class="feature-card">
+                    <i class="fa-solid fa-lock"></i>
+                    <h3>Responsabilité &amp; sécurité</h3>
+                    <p>Les consignes rappellent systématiquement les bonnes pratiques de sécurité, de nettoyage et de gestion des coûts.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="two-columns">
+                <div>
+                    <h2 class="section-title">Technologies utilisées</h2>
+                    <p>La plateforme est volontairement légère et statique, afin de pouvoir être hébergée facilement sur un bucket S3 avec une distribution CloudFront. Elle illustre ainsi elle-même un cas d’usage typique des sites statiques sur AWS.</p>
+                </div>
+                <div class="tech-list">
+                    <ul class="list-check">
+                        <li>HTML5, CSS3 et JavaScript vanilla.</li>
+                        <li>Hébergement statique sur Amazon S3.</li>
+                        <li>Distribution possible via Amazon CloudFront.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt">
+            <div class="two-columns">
+                <div>
+                    <h2 class="section-title">Gouvernance &amp; mise à jour</h2>
+                    <p>Les contenus des labs sont révisés régulièrement pour rester alignés avec l’évolution des services AWS et des programmes pédagogiques ESTIAM. Les retours des étudiants et des intervenants sont intégrés à chaque itération.</p>
+                </div>
+                <div class="highlight-box">
+                    <h3>Cycle de vie des labs</h3>
+                    <ul class="list-bullets">
+                        <li>Revue annuelle des supports en fonction des nouveautés AWS.</li>
+                        <li>Mise à jour continue en cas de changement d’interface ou de prérequis.</li>
+                        <li>Prise en compte des suggestions d’amélioration remontées par les promotions.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <p>&copy; 2026 ESTIAM AWS Labs &mdash; Plateforme pédagogique interne.</p>
+            <p class="footer-links">
+                <a href="labs.html">Laboratoires</a>
+                <span>·</span>
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
