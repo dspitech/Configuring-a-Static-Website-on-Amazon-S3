@@ -6,9 +6,9 @@
 ![AWS EFS](https://img.shields.io/badge/Storage-AWS_EFS-FF9900?style=flat&logo=amazonaws)
 ![AWS CloudFront](https://img.shields.io/badge/CDN-AWS_CloudFront-FF9900?style=flat&logo=amazoncloudfront)
 ![AWS API Gateway](https://img.shields.io/badge/API-AWS_API_Gateway-FF9900?style=flat&logo=amazonaws)
+
 Plateforme web statique destinée aux étudiants de l’ESTIAM pour pratiquer les principaux services AWS (EC2, S3, RDS, CloudFront, IAM, etc.).  
 Le site est conçu pour être **hébergé sur Amazon S3 en mode “static website hosting”**.
-
 
 ---
 
