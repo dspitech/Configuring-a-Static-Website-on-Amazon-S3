@@ -1,8 +1,11 @@
 # Site statique -  S3
 
-<span style="background-color:#FF9900; color:white; padding:4px 8px; border-radius:4px; font-size:0.9em; margin-right:6px;">AWS S3</span>
-<span style="background-color:#FF9900; color:white; padding:4px 8px; border-radius:4px; font-size:0.9em; margin-right:6px;">EC2</span>
-
+![AWS S3](https://img.shields.io/badge/Storage-AWS_S3-FF9900?style=flat&logo=amazons3)
+![AWS EC2](https://img.shields.io/badge/Compute-AWS_EC2-FF9900?style=flat&logo=amazonaws)
+![AWS Lambda](https://img.shields.io/badge/Compute-AWS_Lambda-FF9900?style=flat&logo=awslambda)
+![AWS EFS](https://img.shields.io/badge/Storage-AWS_EFS-FF9900?style=flat&logo=amazonaws)
+![AWS CloudFront](https://img.shields.io/badge/CDN-AWS_CloudFront-FF9900?style=flat&logo=amazoncloudfront)
+![AWS API Gateway](https://img.shields.io/badge/API-AWS_API_Gateway-FF9900?style=flat&logo=amazonaws)
 Plateforme web statique destinée aux étudiants de l’ESTIAM pour pratiquer les principaux services AWS (EC2, S3, RDS, CloudFront, IAM, etc.).  
 Le site est conçu pour être **hébergé sur Amazon S3 en mode “static website hosting”**.
 
